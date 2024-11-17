@@ -6,6 +6,6 @@ RUN groupmod -g ${GID} node &&\
     usermod -u ${UID} node
 USER node
 WORKDIR /home/node
-RUN git clone "https://github.com/Ethorbit/glua-api-snippets" ./project &&\
+RUN git clone "https://github.com/luttje/glua-api-snippets" ./project &&\
     npm install --prefix ./project
 WORKDIR /home/node/project
