@@ -5,6 +5,6 @@ Example:
 ```
 docker run -it --rm \
     -v ./output:/output \
-    ethorbit/glua-api-snippets:latest \
+    ethorbit/glua-api-snippets:fork \
     npx tsx ./src/cli-scraper.ts --output /output/gmod-wiki
 ```
