@@ -1,4 +1,4 @@
-A Docker image of [glua-api-snippets](https://github.com/luttje/glua-api-snippets)
+A Docker image of [glua-api-snippets](https://github.com/Ethorbit/glua-api-snippets)
 
 Example: 
 
